@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}  
+<!-- Headings & Paragraph Copy -->
+                        <section id="middle">
+                          <div class="row">
+                          <div class="span4">
+                        <div class="well"  style="text-align: center;">
+                                <h1>SportyBird.io</h1>
+                          <h5>Bringing Players, Parents & Coaches Closer Togeather!</h5>
+                        </div>
+                            </div>
+                            <div class="span4">
+                                <div style="text-align: center">
+                                                        <img src="{{ url_for('static', filename='img/soccer-bird.png') }}" alt="Bird" style="width:275px;">
+                  </div>
+                            </div>
+                            <div class="span4">
+                              <h3>SportyBird is using technology to bring youth sports back to the basics.</h3>
+                                                <p>SportyBird is an online & mobile social youth sports tool. Parents can use SportyBird to effortlessly share their player's games and experiences to friends, family & scouts from all over the country. Coaches and teams can track game & season statistics in a visually stimulating format.</p>
+                            </div>
+                          </div>
+                        </section>
+                        <section id="signup">
+			<div class="well form-search"  style="text-align: center;">
+				<h3>Thanks for signing up!</h3>
+				<p>We'll let you know when SportyBird.io is ready!</p>
+			</div>
+			</section>
+{% endblock %}
